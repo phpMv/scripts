@@ -14,4 +14,14 @@ class Main extends ControllerBase{
 		$this->jquery->compile($this->view);
 		$this->loadView("index.html");}
 
+
+	public function test(){
+		echo "hello";
+	}
+
+
+	public function test2(){
+		echo "test2";
+	}
+
 }
