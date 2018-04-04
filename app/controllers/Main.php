@@ -24,4 +24,9 @@ class Main extends ControllerBase{
 		echo "test2";
 	}
 
+
+	public function essai(){
+		
+	}
+
 }
